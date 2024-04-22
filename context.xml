@@ -2,7 +2,7 @@
 <Context>
     <WatchedResource>WEB-INF/web.xml</WatchedResource>
     <WatchedResource>WEB-INF/tomcat-web.xml</WatchedResource>
-    <WatchedResource>\${catalina.base}/conf/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
     <Resource name="jdbc/mydb"
         auth="Container"
         type="javax.sql.DataSource"
