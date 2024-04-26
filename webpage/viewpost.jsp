@@ -84,3 +84,14 @@
         <div class="user-info">
             현재 로그인한 사용자: <%= session.getAttribute("username") %> <!-- 세션에 저장된 username 가져오기 -->
             <button class="logout-btn" onclick="logout()">로그아웃</button>
+            <a href="http://www.ohapjizon.site/viewmypost.jsp">내가 쓴 글 보기</a>
+        </div>
+    </div>
+
+    <button class="write-post-btn" onclick="location.href='http://www.ohapjizon.site/makepost.jsp'">
+        글쓰기
+    </button>
+
+    <h2>저장된 글 목록</h2>
+    <div class="post-container">
+        <%

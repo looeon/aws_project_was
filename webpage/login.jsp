@@ -72,3 +72,17 @@
 </head>
 <body>
     <div class="container">
+        <button onclick="location.href='http://www.ohapjizon.site'" class="back-button">←</button>
+        <div class="login-box">
+            <h2>로그인</h2>
+            <form action="dbread.jsp" method="post">
+                <label for="username">유저이름:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">비밀번호:</label><br>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="로그인">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
