@@ -72,17 +72,3 @@
 </head>
 <body>
     <div class="container">
-        <button onclick="location.href='http://192.168.120.10'" class="back-button">←</button>
-        <div class="login-box">
-            <h2>회원가입</h2>
-            <form action="dbwrite.jsp" method="post">
-                <label for="username">유저이름:</label><br>
-                <input type="text" id="username" name="username"><br>
-                <label for="password">비밀번호:</label><br>
-                <input type="password" id="password" name="password"><br><br>
-                <input type="submit" value="회원가입">
-            </form>
-        </div>
-    </div>
-</body>
-</html>

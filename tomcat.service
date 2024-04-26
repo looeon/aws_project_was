@@ -1,0 +1,14 @@
+[Unit]
+Description=tomcat
+After=network.target syslog.target
+
+[Service]
+Type=forking
+User=root
+Group=root
+ExecStart=/root/apache-tomcat-10.1.20/bin/startup.sh
+ExecStop=/root/apache-tomcat-10.1.20/bin/shutdown.sh
+RestartSec=10
+Restart=always
+[Install]
+WantedBy=multi-user.target
